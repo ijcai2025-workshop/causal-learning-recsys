@@ -7,103 +7,15 @@ title: Speakers
     <div class="row">
         <div class="col-12">
             <h1 class="text-center mb-5">Invited Speakers</h1>
-            <p class="text-center lead mb-5">Meet our distinguished keynote speakers and panelists</p>
+            <p class="text-center lead mb-5">Our distinguished speakers will be announced soon.</p>
         </div>
     </div>
 
     <div class="row">
-        <!-- Keynote Speaker 1 -->
-        <div class="col-lg-6 mb-4">
-            <div class="speaker-card">
-                <div class="speaker-image">
-                    <img src="{{ '/assets/images/speaker1.jpg' | relative_url }}" alt="Speaker 1" class="img-fluid">
-                </div>
-                <div class="speaker-content">
-                    <h3>Prof. John Smith</h3>
-                    <p class="speaker-title">Professor of Computer Science</p>
-                    <p class="speaker-affiliation">Stanford University</p>
-                    <p class="speaker-bio">
-                        Leading expert in causal inference and recommendation systems. His research focuses on developing novel methods for incorporating causal reasoning into machine learning models.
-                    </p>
-                    <div class="speaker-social">
-                        <a href="#" class="me-2"><i class="fab fa-google"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Keynote Speaker 2 -->
-        <div class="col-lg-6 mb-4">
-            <div class="speaker-card">
-                <div class="speaker-image">
-                    <img src="{{ '/assets/images/speaker2.jpg' | relative_url }}" alt="Speaker 2" class="img-fluid">
-                </div>
-                <div class="speaker-content">
-                    <h3>Dr. Sarah Johnson</h3>
-                    <p class="speaker-title">Senior Research Scientist</p>
-                    <p class="speaker-affiliation">Netflix</p>
-                    <p class="speaker-bio">
-                        Industry expert in recommendation systems with extensive experience in applying causal inference to real-world recommendation problems.
-                    </p>
-                    <div class="speaker-social">
-                        <a href="#" class="me-2"><i class="fab fa-google"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Panelist 1 -->
-        <div class="col-lg-4 mb-4">
-            <div class="speaker-card panelist">
-                <div class="speaker-image">
-                    <img src="{{ '/assets/images/panelist1.jpg' | relative_url }}" alt="Panelist 1" class="img-fluid">
-                </div>
-                <div class="speaker-content">
-                    <h3>Dr. Michael Chen</h3>
-                    <p class="speaker-title">Research Scientist</p>
-                    <p class="speaker-affiliation">Amazon</p>
-                    <p class="speaker-bio">
-                        Expert in fairness and bias in recommendation systems.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Panelist 2 -->
-        <div class="col-lg-4 mb-4">
-            <div class="speaker-card panelist">
-                <div class="speaker-image">
-                    <img src="{{ '/assets/images/panelist2.jpg' | relative_url }}" alt="Panelist 2" class="img-fluid">
-                </div>
-                <div class="speaker-content">
-                    <h3>Prof. Emily Brown</h3>
-                    <p class="speaker-title">Assistant Professor</p>
-                    <p class="speaker-affiliation">MIT</p>
-                    <p class="speaker-bio">
-                        Specialist in interpretable recommendation models.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Panelist 3 -->
-        <div class="col-lg-4 mb-4">
-            <div class="speaker-card panelist">
-                <div class="speaker-image">
-                    <img src="{{ '/assets/images/panelist3.jpg' | relative_url }}" alt="Panelist 3" class="img-fluid">
-                </div>
-                <div class="speaker-content">
-                    <h3>Dr. David Wilson</h3>
-                    <p class="speaker-title">Senior Data Scientist</p>
-                    <p class="speaker-affiliation">Spotify</p>
-                    <p class="speaker-bio">
-                        Expert in causal learning for music recommendations.
-                    </p>
-                </div>
+        <div class="col-12">
+            <div class="alert alert-info text-center">
+                <i class="fas fa-info-circle me-2"></i>
+                Stay tuned for updates about our keynote speakers and panelists.
             </div>
         </div>
     </div>

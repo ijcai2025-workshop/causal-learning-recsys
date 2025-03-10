@@ -7,74 +7,15 @@ title: Organizers
     <div class="row">
         <div class="col-12">
             <h1 class="text-center mb-5">Workshop Organizers</h1>
-            <p class="text-center lead mb-5">Meet the team behind the workshop</p>
+            <p class="text-center lead mb-5">The organizing committee will be announced soon.</p>
         </div>
     </div>
 
     <div class="row">
-        <!-- Organizer 1 -->
-        <div class="col-lg-4 mb-4">
-            <div class="organizer-card">
-                <div class="organizer-image">
-                    <img src="{{ '/assets/images/organizer1.jpg' | relative_url }}" alt="Organizer 1" class="img-fluid">
-                </div>
-                <div class="organizer-content">
-                    <h3>Prof. Jane Doe</h3>
-                    <p class="organizer-title">Associate Professor</p>
-                    <p class="organizer-affiliation">University of Montreal</p>
-                    <p class="organizer-bio">
-                        Expert in causal inference and recommendation systems. Leading research in fair and interpretable recommendations.
-                    </p>
-                    <div class="organizer-social">
-                        <a href="#" class="me-2"><i class="fab fa-google"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Organizer 2 -->
-        <div class="col-lg-4 mb-4">
-            <div class="organizer-card">
-                <div class="organizer-image">
-                    <img src="{{ '/assets/images/organizer2.jpg' | relative_url }}" alt="Organizer 2" class="img-fluid">
-                </div>
-                <div class="organizer-content">
-                    <h3>Dr. John Smith</h3>
-                    <p class="organizer-title">Research Scientist</p>
-                    <p class="organizer-affiliation">McGill University</p>
-                    <p class="organizer-bio">
-                        Specialist in machine learning and recommendation systems. Focus on causal learning and fairness.
-                    </p>
-                    <div class="organizer-social">
-                        <a href="#" class="me-2"><i class="fab fa-google"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Organizer 3 -->
-        <div class="col-lg-4 mb-4">
-            <div class="organizer-card">
-                <div class="organizer-image">
-                    <img src="{{ '/assets/images/organizer3.jpg' | relative_url }}" alt="Organizer 3" class="img-fluid">
-                </div>
-                <div class="organizer-content">
-                    <h3>Dr. Sarah Johnson</h3>
-                    <p class="organizer-title">Assistant Professor</p>
-                    <p class="organizer-affiliation">Concordia University</p>
-                    <p class="organizer-bio">
-                        Expert in causal inference and its applications in recommendation systems.
-                    </p>
-                    <div class="organizer-social">
-                        <a href="#" class="me-2"><i class="fab fa-google"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
+        <div class="col-12">
+            <div class="alert alert-info text-center">
+                <i class="fas fa-info-circle me-2"></i>
+                Stay tuned for information about our workshop organizers.
             </div>
         </div>
     </div>
