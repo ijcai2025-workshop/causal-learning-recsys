@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xxxholic0511/ijcai2025-causal-learning-recsys.git"
+    "url": "git+https://github.com/ijcai2025-workshop/causal-learning-recsys.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xxxholic0511/ijcai2025-causal-learning-recsys/issues"
+    "url": "https://github.com/ijcai2025-workshop/causal-learning-recsys/issues"
   },
-  "homepage": "https://github.com/xxxholic0511/ijcai2025-causal-learning-recsys#readme",
+  "homepage": "https://github.com/ijcai2025-workshop/causal-learning-recsys#readme",
   "dependencies": {
     "canvas": "^3.1.0"
   }
