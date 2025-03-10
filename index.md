@@ -3,15 +3,19 @@ layout: default
 title: Home
 ---
 
-<div class="hero-section text-center py-5">
+<div class="hero-section text-center">
+    <div class="hero-overlay"></div>
     <div class="container">
-        <h1 class="display-4">IJCAI 2025 Workshop</h1>
-        <h2 class="display-5">Causal Learning for Recommendation Systems</h2>
-        <p class="location">
-            <i class="fas fa-map-marker-alt"></i>
-            Montreal, Canada
-        </p>
-        <p class="lead">August 16th – 22nd, 2025</p>
+        <div class="hero-content">
+            <h1 class="display-3 mb-4">IJCAI 2025 Workshop</h1>
+            <h2 class="display-4 mb-4">Causal Learning for Recommendation Systems</h2>
+            <p class="location mb-3">
+                <i class="fas fa-map-marker-alt"></i>
+                Montreal, Canada
+            </p>
+            <p class="lead date mb-4">August 16th – 22nd, 2025</p>
+            <a href="{{ site.baseurl }}/submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
+        </div>
     </div>
 </div>
 
@@ -74,4 +78,125 @@ title: Home
             </div>
         </div>
     </div>
-</div> 
+</div>
+
+<style>
+.hero-section {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: url('{{ site.baseurl }}/assets/images/montreal-hero.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 6rem 0;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    animation: fadeInDown 1s ease;
+}
+
+.hero-section h2 {
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    animation: fadeInUp 1s ease 0.2s;
+}
+
+.hero-section .location {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    animation: fadeInUp 1s ease 0.4s;
+}
+
+.hero-section .date {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease 0.6s;
+}
+
+.hero-section .location i {
+    margin-right: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.btn-hero {
+    background: var(--secondary-color);
+    color: white;
+    border: 2px solid var(--secondary-color);
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    animation: fadeInUp 1s ease 0.8s;
+}
+
+.btn-hero:hover {
+    background: transparent;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 60vh;
+        padding: 4rem 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-section .location,
+    .hero-section .date {
+        font-size: 1.2rem;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style> 

@@ -23,12 +23,12 @@ title: Schedule
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-badge">
-                        <i class="fas fa-clock"></i>
+                        <i class="fas fa-flag"></i>
                     </div>
                     <div class="timeline-content">
                         <h3>9:00 AM - 9:15 AM</h3>
-                        <h4>Opening Remarks</h4>
-                        <p>Welcome and introduction to the workshop</p>
+                        <h4>Welcome and Opening Remarks</h4>
+                        <p>Introduction to the workshop and overview of the day</p>
                     </div>
                 </div>
 
@@ -37,9 +37,20 @@ title: Schedule
                         <i class="fas fa-user-tie"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>9:15 AM - 10:15 AM</h3>
-                        <h4>Keynote Speech</h4>
-                        <p>"Causal Inference in Modern Recommendation Systems"</p>
+                        <h3>9:15 AM - 10:00 AM</h3>
+                        <h4>Invited Keynote 1</h4>
+                        <p>First keynote presentation</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>10:00 AM - 10:45 AM</h3>
+                        <h4>Contributed Paper Session 1</h4>
+                        <p>Presentations of accepted papers</p>
                     </div>
                 </div>
 
@@ -48,7 +59,7 @@ title: Schedule
                         <i class="fas fa-coffee"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>10:15 AM - 10:45 AM</h3>
+                        <h3>10:45 AM - 11:00 AM</h3>
                         <h4>Coffee Break</h4>
                         <p>Networking and refreshments</p>
                     </div>
@@ -59,9 +70,9 @@ title: Schedule
                         <i class="fas fa-file-alt"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>10:45 AM - 12:15 PM</h3>
-                        <h4>Paper Presentations</h4>
-                        <p>Selected paper presentations and discussions</p>
+                        <h3>11:00 AM - 12:00 PM</h3>
+                        <h4>Contributed Paper Session 2</h4>
+                        <p>Presentations of accepted papers</p>
                     </div>
                 </div>
 
@@ -70,9 +81,20 @@ title: Schedule
                         <i class="fas fa-utensils"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>12:15 PM - 1:15 PM</h3>
+                        <h3>12:00 PM - 1:00 PM</h3>
                         <h4>Lunch Break</h4>
                         <p>Lunch and networking</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>1:00 PM - 1:45 PM</h3>
+                        <h4>Invited Keynote 2</h4>
+                        <p>Second keynote presentation</p>
                     </div>
                 </div>
 
@@ -81,20 +103,9 @@ title: Schedule
                         <i class="fas fa-users"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>1:15 PM - 2:15 PM</h3>
-                        <h4>Panel Discussion</h4>
-                        <p>"Challenges and Opportunities in Causal Learning for Recommendations"</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-badge">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <div class="timeline-content">
-                        <h3>2:15 PM - 3:15 PM</h3>
-                        <h4>Interactive Session</h4>
-                        <p>Hands-on workshop on implementing causal learning in recommendation systems</p>
+                        <h3>1:45 PM - 2:30 PM</h3>
+                        <h4>Poster Session and Networking Break</h4>
+                        <p>Interactive poster presentations and discussions</p>
                     </div>
                 </div>
 
@@ -103,9 +114,20 @@ title: Schedule
                         <i class="fas fa-comments"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>3:15 PM - 3:45 PM</h3>
-                        <h4>Open Discussion</h4>
-                        <p>Q&A and future directions</p>
+                        <h3>2:30 PM - 3:15 PM</h3>
+                        <h4>Breakout Group Discussion</h4>
+                        <p>Small group discussions on key topics</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>3:15 PM - 4:00 PM</h3>
+                        <h4>Contributed Paper Session 3</h4>
+                        <p>Presentations of accepted papers</p>
                     </div>
                 </div>
 
@@ -114,9 +136,9 @@ title: Schedule
                         <i class="fas fa-flag-checkered"></i>
                     </div>
                     <div class="timeline-content">
-                        <h3>3:45 PM - 4:00 PM</h3>
+                        <h3>4:00 PM - 4:30 PM</h3>
                         <h4>Closing Remarks</h4>
-                        <p>Summary and next steps</p>
+                        <p>Summary and wrap-up of the workshop</p>
                     </div>
                 </div>
             </div>
