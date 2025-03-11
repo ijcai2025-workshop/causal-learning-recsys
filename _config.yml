@@ -1,14 +1,26 @@
-title: IJCAI 2025 Workshop - Causal Learning for Recommendation Systems
-description: Workshop on Causal Learning for Recommendation Systems at IJCAI 2025
-baseurl: "/causal-learning-recsys"
-url: "https://ijcai2025-workshop.github.io"
+title: IJCAI 2025 Workshop
+description: Causal Learning for Recommendation Systems
+baseurl: ""
+url: ""
 
 # Build settings
-markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Site settings
 author:
