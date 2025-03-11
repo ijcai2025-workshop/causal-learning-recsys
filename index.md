@@ -180,9 +180,9 @@ title: Home
     bottom: 0;
     background: linear-gradient(
         135deg,
-        rgba(44, 62, 80, 0.97) 0%,
-        rgba(52, 152, 219, 0.90) 40%,
-        rgba(41, 128, 185, 0.80) 100%
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.3) 100%
     );
     z-index: 1;
 }
