@@ -28,14 +28,91 @@ title: Home
             </p>
             
             <h2 class="mt-4">Key Topics</h2>
-            <ul>
-                <li>Causal inference in recommendation systems</li>
-                <li>Counterfactual learning for recommendations</li>
-                <li>Fairness and bias in recommendation systems</li>
-                <li>Interpretable recommendation models</li>
-                <li>Robust recommendation systems</li>
-                <li>Real-world applications and case studies</li>
-            </ul>
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Causal Inference for Recommender Systems</h3>
+                    </div>
+                    <ul>
+                        <li>Integrating causal models to improve recommendation quality</li>
+                        <li>Modeling cause-effect relationships in user behavior</li>
+                        <li>Causal discovery techniques for system design</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>Bias and Fairness</h3>
+                    </div>
+                    <ul>
+                        <li>Identifying and mitigating biases using causal frameworks</li>
+                        <li>Fairness-aware recommendation models</li>
+                        <li>Evaluating fairness using counterfactuals</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Interpretability and Transparency</h3>
+                    </div>
+                    <ul>
+                        <li>Explaining recommendations through causal reasoning</li>
+                        <li>Causal explanations of user-item interactions</li>
+                        <li>Methods for interpretable recommendation models</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-random"></i>
+                        <h3>Counterfactual Learning</h3>
+                    </div>
+                    <ul>
+                        <li>Counterfactual analysis for recommendation effectiveness</li>
+                        <li>Generating personalized counterfactuals</li>
+                        <li>Measuring intervention impacts</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Causal Reinforcement Learning</h3>
+                    </div>
+                    <ul>
+                        <li>Combining causal inference with reinforcement learning</li>
+                        <li>Adaptive recommendation strategies</li>
+                        <li>Dynamic recommendation systems</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-industry"></i>
+                        <h3>Practical Applications</h3>
+                    </div>
+                    <ul>
+                        <li>Real-world applications in e-commerce and social media</li>
+                        <li>Large-scale deployment case studies</li>
+                        <li>Industry lessons and best practices</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Ethical Implications</h3>
+                    </div>
+                    <ul>
+                        <li>Ethical concerns and trade-offs</li>
+                        <li>Addressing societal impacts and biases</li>
+                        <li>Incorporating ethical considerations</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         
         <div class="col-md-4">
@@ -89,6 +166,7 @@ title: Home
     color: white;
     background: url('{{ site.baseurl }}/assets/images/montreal-hero.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
     padding: 6rem 0;
     margin-bottom: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -100,13 +178,19 @@ title: Home
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    background: linear-gradient(
+        135deg,
+        rgba(44, 62, 80, 0.97) 0%,
+        rgba(52, 152, 219, 0.90) 40%,
+        rgba(41, 128, 185, 0.80) 100%
+    );
     z-index: 1;
 }
 
 .hero-content {
     position: relative;
     z-index: 2;
+    animation: fadeIn 1.5s ease;
 }
 
 .hero-section h1 {
@@ -114,6 +198,10 @@ title: Home
     margin-bottom: 1rem;
     font-size: 4rem;
     animation: fadeInDown 1s ease;
+    background: linear-gradient(120deg, #ffffff 0%, #e3e3e3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
 }
 
 .hero-section h2 {
@@ -121,47 +209,63 @@ title: Home
     margin-bottom: 2rem;
     font-size: 2.5rem;
     animation: fadeInUp 1s ease 0.2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    background: linear-gradient(120deg, #ffffff 0%, #e3e3e3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
 }
 
 .hero-section .location {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     animation: fadeInUp 1s ease 0.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 .hero-section .date {
     font-size: 1.5rem;
     margin-bottom: 2rem;
     animation: fadeInUp 1s ease 0.6s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 }
 
 .hero-section .location i {
     margin-right: 0.5rem;
-    color: var(--secondary-color);
+    color: #3498db;
+    text-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
 }
 
 .btn-hero {
-    background: var(--secondary-color);
+    background: linear-gradient(45deg, #3498db, #2980b9);
     color: white;
-    border: 2px solid var(--secondary-color);
+    border: none;
     padding: 1rem 2.5rem;
     font-size: 1.2rem;
     font-weight: 600;
     transition: all 0.3s ease;
     animation: fadeInUp 1s ease 0.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
 
 .btn-hero:hover {
-    background: transparent;
+    background: linear-gradient(45deg, #2980b9, #3498db);
     color: white;
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
 }
 
 @media (max-width: 768px) {
     .hero-section {
         min-height: 60vh;
         padding: 4rem 0;
+        background-attachment: scroll;
     }
     
     .hero-section h1 {
@@ -175,6 +279,15 @@ title: Home
     .hero-section .location,
     .hero-section .date {
         font-size: 1.2rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 
@@ -197,6 +310,79 @@ title: Home
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.topic-card {
+    background: var(--light-gray);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.topic-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.topic-header i {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.topic-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.topic-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.topic-card ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+.topic-card ul li:last-child {
+    margin-bottom: 0;
+}
+
+.topic-card ul li::before {
+    content: '•';
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .topics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .topic-card {
+        padding: 1rem;
     }
 }
 </style> 
