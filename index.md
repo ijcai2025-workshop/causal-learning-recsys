@@ -6,12 +6,32 @@ title: Home
 <!-- Floating Navigation Menu -->
 <nav class="floating-nav">
     <ul>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#dates">Important Dates</a></li>
-        <li><a href="#topics">Topics</a></li>
-        <li><a href="#submission">Submission</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#committee">Committee</a></li>
+        <li><a href="#introduction" class="nav-link">Introduction</a></li>
+        <li><a href="#dates" class="nav-link">Important Dates</a></li>
+        <li>
+            <a href="#topics" class="nav-link">Topics</a>
+            <ul class="sub-nav">
+                <li><a href="#causal-inference">Causal Inference</a></li>
+                <li><a href="#bias-fairness">Bias and Fairness</a></li>
+                <li><a href="#interpretability">Interpretability</a></li>
+                <li><a href="#counterfactual">Counterfactual Learning</a></li>
+            </ul>
+        </li>
+        <li><a href="#submission" class="nav-link">Submission</a></li>
+        <li>
+            <a href="#schedule" class="nav-link">Schedule</a>
+            <ul class="sub-nav">
+                <li><a href="#morning-session">Morning Session</a></li>
+                <li><a href="#afternoon-session">Afternoon Session</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#committee" class="nav-link">Committee</a>
+            <ul class="sub-nav">
+                <li><a href="#organizing-committee">Organizing Committee</a></li>
+                <li><a href="#program-committee">Program Committee</a></li>
+            </ul>
+        </li>
     </ul>
 </nav>
 
@@ -202,8 +222,7 @@ title: Home
                     <div class="time">09:10 - 10:10</div>
                     <div class="event">
                         <h4>Keynote Presentation</h4>
-                        <p>Title: Causal Inference in Modern Recommender Systems</p>
-                        <p class="speaker">by Prof. Susan Athey (Stanford University)</p>
+                        <p>To be announced</p>
                     </div>
                 </div>
 
@@ -218,12 +237,7 @@ title: Home
                     <div class="time">10:30 - 11:30</div>
                     <div class="event">
                         <h4>Paper Session 1: Causal Discovery and Learning</h4>
-                        <ul>
-                            <li>Paper 1 Presentation (15 min)</li>
-                            <li>Paper 2 Presentation (15 min)</li>
-                            <li>Paper 3 Presentation (15 min)</li>
-                            <li>Q&A Session (15 min)</li>
-                        </ul>
+                        <p>Presentations of accepted papers</p>
                     </div>
                 </div>
 
@@ -231,8 +245,7 @@ title: Home
                     <div class="time">11:30 - 12:30</div>
                     <div class="event">
                         <h4>Keynote Presentation</h4>
-                        <p>Title: Fairness and Transparency in Recommendation Systems</p>
-                        <p class="speaker">by Prof. Bernhard Schölkopf (Max Planck Institute)</p>
+                        <p>To be announced</p>
                     </div>
                 </div>
 
@@ -247,12 +260,7 @@ title: Home
                     <div class="time">14:00 - 15:00</div>
                     <div class="event">
                         <h4>Paper Session 2: Applications and Case Studies</h4>
-                        <ul>
-                            <li>Paper 4 Presentation (15 min)</li>
-                            <li>Paper 5 Presentation (15 min)</li>
-                            <li>Paper 6 Presentation (15 min)</li>
-                            <li>Q&A Session (15 min)</li>
-                        </ul>
+                        <p>Presentations of accepted papers</p>
                     </div>
                 </div>
 
@@ -664,7 +672,7 @@ title: Home
     }
 }
 
-/* Floating Navigation */
+/* Enhanced Floating Navigation */
 .floating-nav {
     position: fixed;
     right: 20px;
@@ -675,6 +683,7 @@ title: Home
     border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
     z-index: 1000;
+    min-width: 200px;
 }
 
 .floating-nav ul {
@@ -683,19 +692,65 @@ title: Home
     margin: 0;
 }
 
-.floating-nav li {
-    margin: 0.5rem 0;
+.floating-nav > ul > li {
+    margin: 0.8rem 0;
 }
 
-.floating-nav a {
+.floating-nav .nav-link {
     color: var(--primary-color);
     text-decoration: none;
-    font-size: 0.9rem;
-    transition: color 0.3s ease;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    display: block;
+    padding: 0.3rem 0;
 }
 
-.floating-nav a:hover {
+.floating-nav .nav-link:hover {
     color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+.floating-nav .nav-link.active {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.floating-nav .sub-nav {
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    display: none;
+}
+
+.floating-nav .sub-nav.show {
+    display: block;
+}
+
+.floating-nav .sub-nav li {
+    margin: 0.4rem 0;
+}
+
+.floating-nav .sub-nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.floating-nav .sub-nav a:hover {
+    color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+.floating-nav .sub-nav a.active {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .floating-nav {
+        display: none;
+    }
 }
 
 /* Schedule Styles */
@@ -826,13 +881,63 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+// Enhanced navigation functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const subNavLinks = document.querySelectorAll('.sub-nav a');
+
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         });
     });
+
+    // Update active states on scroll
+    function updateActiveStates() {
+        const fromTop = window.scrollY + 100;
+
+        sections.forEach(section => {
+            const id = section.getAttribute('id');
+            const mainNavLink = document.querySelector(`.nav-link[href="#${id}"]`);
+            
+            if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+                if (mainNavLink) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    mainNavLink.classList.add('active');
+                    
+                    // Show/hide subnav
+                    const parentLi = mainNavLink.parentElement;
+                    if (parentLi.querySelector('.sub-nav')) {
+                        document.querySelectorAll('.sub-nav').forEach(nav => nav.classList.remove('show'));
+                        parentLi.querySelector('.sub-nav').classList.add('show');
+                    }
+                }
+            }
+        });
+
+        // Update subnav active states
+        subNavLinks.forEach(link => {
+            const targetId = link.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            
+            if (targetElement && targetElement.offsetTop <= fromTop && 
+                targetElement.offsetTop + targetElement.offsetHeight > fromTop) {
+                subNavLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveStates);
+    updateActiveStates(); // Initial call
 });
 </script> 
