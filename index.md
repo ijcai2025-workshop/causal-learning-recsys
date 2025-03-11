@@ -308,6 +308,29 @@ title: Home
 </div>
 
 <style>
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --text-color: #4a5568;
+    --light-gray: #f8f9fa;
+    --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    font-family: var(--font-secondary);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    font-weight: 600;
+}
+
 .hero-section {
     position: relative;
     min-height: 80vh;
@@ -344,6 +367,7 @@ title: Home
 }
 
 .hero-section h1 {
+    font-family: var(--font-primary);
     font-weight: 700;
     margin-bottom: 1rem;
     font-size: 4rem;
@@ -352,9 +376,11 @@ title: Home
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: none;
+    letter-spacing: -0.02em;
 }
 
 .hero-section h2 {
+    font-family: var(--font-primary);
     font-weight: 300;
     margin-bottom: 2rem;
     font-size: 2.5rem;
@@ -365,6 +391,7 @@ title: Home
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: none;
+    letter-spacing: -0.01em;
 }
 
 .hero-section .location {
@@ -538,11 +565,14 @@ title: Home
 
 /* Section Styles */
 .section-title {
+    font-family: var(--font-primary);
+    font-weight: 600;
     text-align: center;
     margin-bottom: 2rem;
     color: var(--primary-color);
     position: relative;
     padding-bottom: 1rem;
+    letter-spacing: -0.01em;
 }
 
 .section-title::after {
@@ -686,8 +716,11 @@ title: Home
 
 /* Committee Styles */
 .committee-section h3 {
+    font-family: var(--font-primary);
+    font-weight: 600;
     color: var(--primary-color);
     margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
 }
 
 .members-grid {
@@ -708,18 +741,26 @@ title: Home
 }
 
 .member-card h4 {
+    font-family: var(--font-primary);
+    font-weight: 600;
     color: var(--primary-color);
     margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    letter-spacing: -0.01em;
 }
 
 .member-card p {
-    color: #666;
+    font-family: var(--font-secondary);
+    color: var(--text-color);
     margin-bottom: 0.5rem;
+    font-size: 0.95rem;
 }
 
 .member-card a {
+    font-family: var(--font-secondary);
     color: var(--secondary-color);
     text-decoration: none;
+    font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
