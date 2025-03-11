@@ -3,6 +3,18 @@ layout: default
 title: Home
 ---
 
+<!-- Floating Navigation Menu -->
+<nav class="floating-nav">
+    <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#dates">Important Dates</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#submission">Submission</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#committee">Committee</a></li>
+    </ul>
+</nav>
+
 <div class="hero-section text-center">
     <div class="hero-overlay"></div>
     <div class="container">
@@ -14,20 +26,60 @@ title: Home
                 Montreal, Canada
             </p>
             <p class="lead date mb-4">August 16th – 22nd, 2025</p>
-            <a href="{{ site.baseurl }}/submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
+            <a href="#submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
         </div>
     </div>
 </div>
 
 <div class="container mt-5">
-    <div class="row">
-        <div class="col-md-8">
-            <h2>About the Workshop</h2>
+    <section id="introduction" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Introduction</h2>
+        <div class="content-section">
             <p>
                 The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems brings together researchers and practitioners to explore the intersection of causal inference and recommendation systems. This workshop aims to address the challenges and opportunities in incorporating causal reasoning into recommendation algorithms, with a focus on improving recommendation fairness, robustness, and interpretability.
             </p>
-            
-            <h2 class="mt-4">Key Topics</h2>
+        </div>
+    </section>
+
+    <section id="dates" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Important Dates</h2>
+        <div class="content-section">
+            <div class="timeline-dates">
+                <div class="timeline-date">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div>
+                        <h4>Paper Submission Deadline</h4>
+                        <p>May 9, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Notification of Acceptance</h4>
+                        <p>June 6, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-file-alt"></i>
+                    <div>
+                        <h4>Camera-ready Submission</h4>
+                        <p>June 20, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-date">
+                    <i class="fas fa-calendar-check"></i>
+                    <div>
+                        <h4>Workshop Date</h4>
+                        <p>August 16th – 22nd, 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="topics" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Topics</h2>
+        <div class="content-section">
             <div class="topics-grid">
                 <div class="topic-card">
                     <div class="topic-header">
@@ -114,47 +166,179 @@ title: Home
                 </div>
             </div>
         </div>
-        
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-body">
-                    <h3 class="card-title">Important Dates</h3>
-                    <ul class="list-unstyled">
-                        <li><strong>Paper Submission:</strong> May 9, 2025</li>
-                        <li><strong>Notification:</strong> June 6, 2025</li>
-                        <li><strong>Camera Ready:</strong> June 20, 2025</li>
-                        <li><strong>Workshop Date:</strong> August 16th – 22nd, 2025</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="card mt-4">
-                <div class="card-body">
-                    <h3 class="card-title">Quick Links</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="{{ site.baseurl }}/submission">Submission Guidelines</a></li>
-                        <li><a href="{{ site.baseurl }}/schedule">Workshop Schedule</a></li>
-                        <li><a href="{{ site.baseurl }}/speakers">Invited Speakers</a></li>
-                        <li><a href="{{ site.baseurl }}/organizers">Organizers</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </section>
 
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-12">
-            <h2 class="text-center">Call for Papers</h2>
-            <p class="text-center">
-                We invite submissions of original research papers that address theoretical and practical aspects of causal learning in recommendation systems. Both full papers and position papers are welcome.
-            </p>
-            <div class="text-center mt-4">
-                <a href="{{ site.baseurl }}/submission" class="btn btn-primary">Submission Guidelines</a>
+    <section id="submission" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Submission</h2>
+        <div class="content-section">
+            <div class="submission-process">
+                <h3>Submission Process</h3>
+                <ul class="submission-steps">
+                    <li><i class="fas fa-upload me-2"></i>Submit through the workshop's submission system</li>
+                    <li><i class="fas fa-users me-2"></i>Papers will be reviewed by at least 3 reviewers</li>
+                    <li><i class="fas fa-comments me-2"></i>Authors will receive detailed feedback</li>
+                    <li><i class="fas fa-chalkboard-teacher me-2"></i>Accepted papers will be presented at the workshop</li>
+                </ul>
+                <div class="text-center mt-4">
+                    <a href="https://easychair.org/conferences/?conf=ijcai2025causalrecsys" class="btn btn-primary">Submit Your Paper</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="schedule" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Schedule</h2>
+        <div class="content-section">
+            <div class="schedule-timeline">
+                <div class="schedule-item">
+                    <div class="time">09:00 - 09:10</div>
+                    <div class="event">
+                        <h4>Opening Remarks</h4>
+                        <p>by Workshop Organizers</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">09:10 - 10:10</div>
+                    <div class="event">
+                        <h4>Keynote Presentation</h4>
+                        <p>Title: Causal Inference in Modern Recommender Systems</p>
+                        <p class="speaker">by Prof. Susan Athey (Stanford University)</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">10:10 - 10:30</div>
+                    <div class="event">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">10:30 - 11:30</div>
+                    <div class="event">
+                        <h4>Paper Session 1: Causal Discovery and Learning</h4>
+                        <ul>
+                            <li>Paper 1 Presentation (15 min)</li>
+                            <li>Paper 2 Presentation (15 min)</li>
+                            <li>Paper 3 Presentation (15 min)</li>
+                            <li>Q&A Session (15 min)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">11:30 - 12:30</div>
+                    <div class="event">
+                        <h4>Keynote Presentation</h4>
+                        <p>Title: Fairness and Transparency in Recommendation Systems</p>
+                        <p class="speaker">by Prof. Bernhard Schölkopf (Max Planck Institute)</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">12:30 - 14:00</div>
+                    <div class="event">
+                        <h4>Lunch Break</h4>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">14:00 - 15:00</div>
+                    <div class="event">
+                        <h4>Paper Session 2: Applications and Case Studies</h4>
+                        <ul>
+                            <li>Paper 4 Presentation (15 min)</li>
+                            <li>Paper 5 Presentation (15 min)</li>
+                            <li>Paper 6 Presentation (15 min)</li>
+                            <li>Q&A Session (15 min)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">15:00 - 15:30</div>
+                    <div class="event">
+                        <h4>Coffee Break</h4>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">15:30 - 16:30</div>
+                    <div class="event">
+                        <h4>Panel Discussion</h4>
+                        <p>Future Directions in Causal Recommendation Systems</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">16:30 - 17:00</div>
+                    <div class="event">
+                        <h4>Closing Remarks and Best Paper Award</h4>
+                        <p>by Workshop Organizers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="committee" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Committee</h2>
+        <div class="content-section">
+            <div class="committee-members">
+                <div class="committee-section">
+                    <h3><i class="fas fa-users-cog me-2"></i>Organizing Committee</h3>
+                    <div class="members-grid">
+                        <div class="member-card">
+                            <h4>Prof. John Smith</h4>
+                            <p>Stanford University, USA</p>
+                            <a href="mailto:john.smith@stanford.edu">john.smith@stanford.edu</a>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. Jane Doe</h4>
+                            <p>MIT, USA</p>
+                            <a href="mailto:jane.doe@mit.edu">jane.doe@mit.edu</a>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. David Johnson</h4>
+                            <p>University of Cambridge, UK</p>
+                            <a href="mailto:david.johnson@cam.ac.uk">david.johnson@cam.ac.uk</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="committee-section mt-5">
+                    <h3><i class="fas fa-user-graduate me-2"></i>Program Committee</h3>
+                    <div class="members-grid">
+                        <div class="member-card">
+                            <h4>Prof. Sarah Wilson</h4>
+                            <p>ETH Zürich, Switzerland</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. Michael Brown</h4>
+                            <p>University of Toronto, Canada</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. Lisa Chen</h4>
+                            <p>Tsinghua University, China</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. Robert Taylor</h4>
+                            <p>University of Oxford, UK</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. Maria Garcia</h4>
+                            <p>Technical University of Madrid, Spain</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Prof. James Wilson</h4>
+                            <p>University of California, Berkeley, USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <style>
@@ -385,4 +569,270 @@ title: Home
         padding: 1rem;
     }
 }
-</style> 
+
+/* Section Styles */
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: var(--secondary-color);
+}
+
+.content-section {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* Scroll reveal animations */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-out;
+}
+
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Timeline styles */
+.timeline-dates {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.timeline-date {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(255,255,255,0.8);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.timeline-date:hover {
+    transform: translateX(10px);
+}
+
+.timeline-date i {
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.timeline-date h4 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.timeline-date p {
+    margin: 0;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-section h2 {
+        font-size: 1.8rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .content-section {
+        padding: 1.5rem;
+    }
+}
+
+/* Floating Navigation */
+.floating-nav {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.floating-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.floating-nav li {
+    margin: 0.5rem 0;
+}
+
+.floating-nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.floating-nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* Schedule Styles */
+.schedule-timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.schedule-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.schedule-item::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--secondary-color);
+}
+
+.schedule-item::after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+}
+
+.schedule-item .time {
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.schedule-item .event h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.schedule-item .event p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.schedule-item .event .speaker {
+    color: var(--secondary-color);
+    font-style: italic;
+}
+
+/* Committee Styles */
+.committee-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.member-card {
+    background: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-card h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.member-card p {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.member-card a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .floating-nav {
+        display: none;
+    }
+    
+    .schedule-timeline {
+        padding-left: 1rem;
+    }
+    
+    .schedule-item {
+        padding-left: 1rem;
+    }
+    
+    .members-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    document.querySelectorAll('.scroll-reveal').forEach((element) => {
+        observer.observe(element);
+    });
+});
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script> 
