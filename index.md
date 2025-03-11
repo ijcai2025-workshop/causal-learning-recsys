@@ -3,38 +3,6 @@ layout: default
 title: Home
 ---
 
-<!-- Floating Navigation Menu -->
-<nav class="floating-nav">
-    <ul>
-        <li><a href="#introduction" class="nav-link">Introduction</a></li>
-        <li><a href="#dates" class="nav-link">Important Dates</a></li>
-        <li>
-            <a href="#topics" class="nav-link">Topics</a>
-            <ul class="sub-nav">
-                <li><a href="#causal-inference">Causal Inference</a></li>
-                <li><a href="#bias-fairness">Bias and Fairness</a></li>
-                <li><a href="#interpretability">Interpretability</a></li>
-                <li><a href="#counterfactual">Counterfactual Learning</a></li>
-            </ul>
-        </li>
-        <li><a href="#submission" class="nav-link">Submission</a></li>
-        <li>
-            <a href="#schedule" class="nav-link">Schedule</a>
-            <ul class="sub-nav">
-                <li><a href="#morning-session">Morning Session</a></li>
-                <li><a href="#afternoon-session">Afternoon Session</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href="#committee" class="nav-link">Committee</a>
-            <ul class="sub-nav">
-                <li><a href="#organizing-committee">Organizing Committee</a></li>
-                <li><a href="#program-committee">Program Committee</a></li>
-            </ul>
-        </li>
-    </ul>
-</nav>
-
 <div class="hero-section text-center">
     <div class="hero-overlay"></div>
     <div class="container">
@@ -298,19 +266,34 @@ title: Home
                     <h3><i class="fas fa-users-cog me-2"></i>Organizing Committee</h3>
                     <div class="members-grid">
                         <div class="member-card">
-                            <h4>Prof. John Smith</h4>
-                            <p>Stanford University, USA</p>
-                            <a href="mailto:john.smith@stanford.edu">john.smith@stanford.edu</a>
+                            <h4>Zhigang Hua</h4>
+                            <p>Meta</p>
+                            <a href="mailto:zhua@meta.com">zhua@meta.com</a>
+                            <p class="mt-2">Lead researcher at Meta Monetization AI, focusing on machine learning, causal learning and recommendation systems.</p>
                         </div>
                         <div class="member-card">
-                            <h4>Prof. Jane Doe</h4>
-                            <p>MIT, USA</p>
-                            <a href="mailto:jane.doe@mit.edu">jane.doe@mit.edu</a>
+                            <h4>Qi Xu</h4>
+                            <p>Meta</p>
+                            <a href="mailto:xuqi@meta.com">xuqi@meta.com</a>
+                            <p class="mt-2">Software engineer at Meta Monetization AI, PhD from Tsinghua University.</p>
                         </div>
                         <div class="member-card">
-                            <h4>Prof. David Johnson</h4>
-                            <p>University of Cambridge, UK</p>
-                            <a href="mailto:david.johnson@cam.ac.uk">david.johnson@cam.ac.uk</a>
+                            <h4>Zihao Xu</h4>
+                            <p>Rutgers University</p>
+                            <a href="mailto:zx158@cs.rutgers.edu">zx158@cs.rutgers.edu</a>
+                            <p class="mt-2">Ph.D candidate focusing on Bayesian Deep Learning and its applications.</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Shuang Yang</h4>
+                            <p>Meta</p>
+                            <a href="mailto:shuangyang@meta.com">shuangyang@meta.com</a>
+                            <p class="mt-2">Lead Machine Learning Engineer at Meta AI Labs working on large scale recommendation systems.</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Bo Long</h4>
+                            <p>Meta</p>
+                            <a href="mailto:bolong@meta.com">bolong@meta.com</a>
+                            <p class="mt-2">Engineering leader with extensive experience in machine learning, information retrieval, and recommendation systems.</p>
                         </div>
                     </div>
                 </div>
@@ -319,28 +302,8 @@ title: Home
                     <h3><i class="fas fa-user-graduate me-2"></i>Program Committee</h3>
                     <div class="members-grid">
                         <div class="member-card">
-                            <h4>Prof. Sarah Wilson</h4>
-                            <p>ETH Zürich, Switzerland</p>
-                        </div>
-                        <div class="member-card">
-                            <h4>Prof. Michael Brown</h4>
-                            <p>University of Toronto, Canada</p>
-                        </div>
-                        <div class="member-card">
-                            <h4>Prof. Lisa Chen</h4>
-                            <p>Tsinghua University, China</p>
-                        </div>
-                        <div class="member-card">
-                            <h4>Prof. Robert Taylor</h4>
-                            <p>University of Oxford, UK</p>
-                        </div>
-                        <div class="member-card">
-                            <h4>Prof. Maria Garcia</h4>
-                            <p>Technical University of Madrid, Spain</p>
-                        </div>
-                        <div class="member-card">
-                            <h4>Prof. James Wilson</h4>
-                            <p>University of California, Berkeley, USA</p>
+                            <h4 class="text-center">To Be Announced</h4>
+                            <p class="text-center text-muted">The Program Committee is currently being formed. Please check back later for updates.</p>
                         </div>
                     </div>
                 </div>
@@ -672,87 +635,6 @@ title: Home
     }
 }
 
-/* Enhanced Floating Navigation */
-.floating-nav {
-    position: fixed;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.95);
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
-    z-index: 1000;
-    min-width: 200px;
-}
-
-.floating-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.floating-nav > ul > li {
-    margin: 0.8rem 0;
-}
-
-.floating-nav .nav-link {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: all 0.3s ease;
-    display: block;
-    padding: 0.3rem 0;
-}
-
-.floating-nav .nav-link:hover {
-    color: var(--secondary-color);
-    transform: translateX(5px);
-}
-
-.floating-nav .nav-link.active {
-    color: var(--secondary-color);
-    font-weight: 600;
-}
-
-.floating-nav .sub-nav {
-    padding-left: 1rem;
-    margin-top: 0.3rem;
-    display: none;
-}
-
-.floating-nav .sub-nav.show {
-    display: block;
-}
-
-.floating-nav .sub-nav li {
-    margin: 0.4rem 0;
-}
-
-.floating-nav .sub-nav a {
-    color: #666;
-    text-decoration: none;
-    font-size: 0.85rem;
-    transition: all 0.3s ease;
-    display: block;
-}
-
-.floating-nav .sub-nav a:hover {
-    color: var(--secondary-color);
-    transform: translateX(5px);
-}
-
-.floating-nav .sub-nav a.active {
-    color: var(--secondary-color);
-    font-weight: 500;
-}
-
-@media (max-width: 768px) {
-    .floating-nav {
-        display: none;
-    }
-}
-
 /* Schedule Styles */
 .schedule-timeline {
     position: relative;
@@ -846,10 +728,6 @@ title: Home
 }
 
 @media (max-width: 768px) {
-    .floating-nav {
-        display: none;
-    }
-    
     .schedule-timeline {
         padding-left: 1rem;
     }
@@ -879,65 +757,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.scroll-reveal').forEach((element) => {
         observer.observe(element);
     });
-});
-
-// Enhanced navigation functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const sections = document.querySelectorAll('section');
-    const navLinks = document.querySelectorAll('.nav-link');
-    const subNavLinks = document.querySelectorAll('.sub-nav a');
-
-    // Smooth scrolling
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-
-    // Update active states on scroll
-    function updateActiveStates() {
-        const fromTop = window.scrollY + 100;
-
-        sections.forEach(section => {
-            const id = section.getAttribute('id');
-            const mainNavLink = document.querySelector(`.nav-link[href="#${id}"]`);
-            
-            if (section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
-                if (mainNavLink) {
-                    navLinks.forEach(link => link.classList.remove('active'));
-                    mainNavLink.classList.add('active');
-                    
-                    // Show/hide subnav
-                    const parentLi = mainNavLink.parentElement;
-                    if (parentLi.querySelector('.sub-nav')) {
-                        document.querySelectorAll('.sub-nav').forEach(nav => nav.classList.remove('show'));
-                        parentLi.querySelector('.sub-nav').classList.add('show');
-                    }
-                }
-            }
-        });
-
-        // Update subnav active states
-        subNavLinks.forEach(link => {
-            const targetId = link.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            
-            if (targetElement && targetElement.offsetTop <= fromTop && 
-                targetElement.offsetTop + targetElement.offsetHeight > fromTop) {
-                subNavLinks.forEach(l => l.classList.remove('active'));
-                link.classList.add('active');
-            }
-        });
-    }
-
-    window.addEventListener('scroll', updateActiveStates);
-    updateActiveStates(); // Initial call
 });
 </script> 
