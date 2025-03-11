@@ -269,31 +269,26 @@ title: Home
                             <h4>Zhigang Hua</h4>
                             <p>Meta</p>
                             <a href="mailto:zhua@meta.com">zhua@meta.com</a>
-                            <p class="mt-2">Lead researcher at Meta Monetization AI, focusing on machine learning, causal learning and recommendation systems.</p>
                         </div>
                         <div class="member-card">
                             <h4>Qi Xu</h4>
                             <p>Meta</p>
                             <a href="mailto:xuqi@meta.com">xuqi@meta.com</a>
-                            <p class="mt-2">Software engineer at Meta Monetization AI, PhD from Tsinghua University.</p>
                         </div>
                         <div class="member-card">
                             <h4>Zihao Xu</h4>
                             <p>Rutgers University</p>
                             <a href="mailto:zx158@cs.rutgers.edu">zx158@cs.rutgers.edu</a>
-                            <p class="mt-2">Ph.D candidate focusing on Bayesian Deep Learning and its applications.</p>
                         </div>
                         <div class="member-card">
                             <h4>Shuang Yang</h4>
                             <p>Meta</p>
                             <a href="mailto:shuangyang@meta.com">shuangyang@meta.com</a>
-                            <p class="mt-2">Lead Machine Learning Engineer at Meta AI Labs working on large scale recommendation systems.</p>
                         </div>
                         <div class="member-card">
                             <h4>Bo Long</h4>
                             <p>Meta</p>
                             <a href="mailto:bolong@meta.com">bolong@meta.com</a>
-                            <p class="mt-2">Engineering leader with extensive experience in machine learning, information retrieval, and recommendation systems.</p>
                         </div>
                     </div>
                 </div>
