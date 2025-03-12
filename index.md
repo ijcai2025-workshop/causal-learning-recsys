@@ -83,6 +83,18 @@ title: Home
 
                 <div class="topic-card">
                     <div class="topic-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>LLM Applications</h3>
+                    </div>
+                    <ul>
+                        <li>Causal learning helps LLMs generate disentangled representations</li>
+                        <li>LLMs can discover causal relationships from textual data</li>
+                        <li>Dynamic causal inference in sequential tasks</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
                         <i class="fas fa-balance-scale"></i>
                         <h3>Bias and Fairness</h3>
                     </div>
@@ -119,7 +131,7 @@ title: Home
 
                 <div class="topic-card">
                     <div class="topic-header">
-                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-brain"></i>
                         <h3>Causal Reinforcement Learning</h3>
                     </div>
                     <ul>
@@ -177,81 +189,67 @@ title: Home
     <section id="schedule" class="mb-5 scroll-reveal">
         <h2 class="section-title">Schedule</h2>
         <div class="content-section">
+            <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
-                    <div class="time">09:00 - 09:10</div>
+                    <div class="time">09:00 - 09:15</div>
                     <div class="event">
                         <h4>Opening Remarks</h4>
-                        <p>by Workshop Organizers</p>
+                        <p>Welcome and introduction by workshop organizers</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">09:10 - 10:10</div>
+                    <div class="time">09:15 - 10:00</div>
                     <div class="event">
-                        <h4>Keynote Presentation</h4>
+                        <h4>Invited Keynote 1</h4>
                         <p>To be announced</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:10 - 10:30</div>
+                    <div class="time">10:00 - 10:45</div>
+                    <div class="event">
+                        <h4>Contributed Paper Session 1</h4>
+                        <p>Paper presentations</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">10:45 - 11:00</div>
                     <div class="event">
                         <h4>Coffee Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:30 - 11:30</div>
+                    <div class="time">11:00 - 12:00</div>
                     <div class="event">
-                        <h4>Paper Session 1: Causal Discovery and Learning</h4>
-                        <p>Presentations of accepted papers</p>
+                        <h4>Contributed Paper Session 2</h4>
+                        <p>Paper presentations</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:30 - 12:30</div>
-                    <div class="event">
-                        <h4>Keynote Presentation</h4>
-                        <p>To be announced</p>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">12:30 - 14:00</div>
+                    <div class="time">12:00 - 13:00</div>
                     <div class="event">
                         <h4>Lunch Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">14:00 - 15:00</div>
+                    <div class="time">13:15 - 14:15</div>
                     <div class="event">
-                        <h4>Paper Session 2: Applications and Case Studies</h4>
-                        <p>Presentations of accepted papers</p>
+                        <h4>Poster Session and Networking Break</h4>
+                        <p>Interactive discussions with poster presenters</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">15:00 - 15:30</div>
+                    <div class="time">14:15 - 14:30</div>
                     <div class="event">
-                        <h4>Coffee Break</h4>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">15:30 - 16:30</div>
-                    <div class="event">
-                        <h4>Panel Discussion</h4>
-                        <p>Future Directions in Causal Recommendation Systems</p>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">16:30 - 17:00</div>
-                    <div class="event">
-                        <h4>Closing Remarks and Best Paper Award</h4>
-                        <p>by Workshop Organizers</p>
+                        <h4>Closing Remarks</h4>
+                        <p>Concluding remarks and best paper award announcement</p>
                     </div>
                 </div>
             </div>
@@ -289,6 +287,11 @@ title: Home
                             <h4>Bo Long</h4>
                             <p>Meta</p>
                             <a href="mailto:bolong@meta.com">bolong@meta.com</a>
+                        </div>
+                        <div class="member-card">
+                            <h4>Yiping Han</h4>
+                            <p>Meta</p>
+                            <a href="mailto:yipinghan@meta.com">yipinghan@meta.com</a>
                         </div>
                     </div>
                 </div>
