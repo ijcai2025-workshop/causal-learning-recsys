@@ -3,6 +3,45 @@ layout: default
 title: Home
 ---
 
+<!-- Add Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Add Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<!-- Add Bootstrap JavaScript and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">IJCAI 2025 Workshop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dates">Important Dates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#topics">Topics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#submission">Submission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#committee">Committee</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <div class="hero-section text-center">
     <div class="hero-overlay"></div>
     <div class="container">
@@ -327,11 +366,43 @@ body {
     font-family: var(--font-secondary);
     color: var(--text-color);
     line-height: 1.6;
+    padding-top: 56px; /* Add padding for fixed navbar */
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
     font-family: var(--font-primary);
     font-weight: 600;
+    color: white !important;
+}
+
+.nav-link {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.3s ease;
+    color: rgba(255,255,255,0.9) !important;
+}
+
+.nav-link:hover {
+    color: white !important;
+    transform: translateY(-1px);
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 .hero-section {
@@ -340,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     color: white;
-    background: url('{{ site.baseurl }}/assets/images/montreal-hero.jpg') no-repeat center center;
+    background: url('https://images.unsplash.com/photo-1519178614-68673b201f36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2378&q=80') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 6rem 0;
