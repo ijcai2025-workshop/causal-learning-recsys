@@ -20,7 +20,7 @@ title: Home
                 <i class="fas fa-map-marker-alt"></i>
                 Montreal, Canada
             </p>
-            <p class="lead date mb-4">August 16th – 22nd, 2025</p>
+            <p class="lead date mb-4">August 16–22, 2025</p>
             <a href="#submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
         </div>
     </div>
@@ -65,7 +65,7 @@ title: Home
                     <i class="fas fa-calendar-check"></i>
                     <div>
                         <h4>Workshop Date</h4>
-                        <p>August 16th – 22nd, 2025</p>
+                        <p>August 16–22, 2025</p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ title: Home
             <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
-                    <div class="time">09:00 - 09:15</div>
+                    <div class="time">09:00 – 09:15</div>
                     <div class="event">
                         <h4>Opening Remarks</h4>
                         <p>Welcome and introduction by workshop organizers</p>
@@ -207,7 +207,7 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">09:15 - 10:00</div>
+                    <div class="time">09:15 – 10:00</div>
                     <div class="event">
                         <h4>Invited Keynote 1</h4>
                         <p>To be announced</p>
@@ -215,7 +215,7 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:00 - 10:45</div>
+                    <div class="time">10:00 – 10:45</div>
                     <div class="event">
                         <h4>Contributed Paper Session 1</h4>
                         <p>Paper presentations</p>
@@ -223,14 +223,14 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:45 - 11:00</div>
+                    <div class="time">10:45 – 11:00</div>
                     <div class="event">
                         <h4>Coffee Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:00 - 12:00</div>
+                    <div class="time">11:00 – 12:00</div>
                     <div class="event">
                         <h4>Contributed Paper Session 2</h4>
                         <p>Paper presentations</p>
@@ -238,14 +238,14 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">12:00 - 13:00</div>
+                    <div class="time">12:00 – 13:00</div>
                     <div class="event">
                         <h4>Lunch Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">13:15 - 14:15</div>
+                    <div class="time">13:15 – 14:15</div>
                     <div class="event">
                         <h4>Poster Session and Networking Break</h4>
                         <p>Interactive discussions with poster presenters</p>
@@ -253,7 +253,7 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">14:15 - 14:30</div>
+                    <div class="time">14:15 – 14:30</div>
                     <div class="event">
                         <h4>Closing Remarks</h4>
                         <p>Concluding remarks and best paper award announcement</p>
