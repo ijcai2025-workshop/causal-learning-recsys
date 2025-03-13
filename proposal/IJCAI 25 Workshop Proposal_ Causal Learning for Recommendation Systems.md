@@ -90,7 +90,6 @@ Jingquan Yan, Rutgers University
 Yuxiang Wang, UCSB  
 Peng Cui, Tsinghua University  
 Chen Fu, Meta  
-Wei Shi, Meta
 
 ---
 
@@ -102,6 +101,7 @@ Zihao Xu, Rutgers University, zx158@cs.rutgers.edu
 Shuang Yang, Meta, shuangyang@meta.com  
 Bo Long, Meta, bolong@meta.com
 Yiping Han, Meta, yipinghan@meta.com 
+Wei Shi, Meta, weishi0079@meta.com 
 
 ### **Brief CVs of Organizing Committee Members**
 
