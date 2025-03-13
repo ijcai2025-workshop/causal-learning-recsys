@@ -334,43 +334,6 @@ body {
     font-family: var(--font-secondary);
     color: var(--text-color);
     line-height: 1.6;
-    padding-top: 56px; /* Add padding for fixed navbar */
-}
-
-/* Navbar Styles */
-.navbar {
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)) !important;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    padding: 1rem 0;
-}
-
-.navbar-brand {
-    font-family: var(--font-primary);
-    font-weight: 600;
-    color: white !important;
-}
-
-.nav-link {
-    font-family: var(--font-secondary);
-    font-weight: 500;
-    padding: 0.5rem 1rem !important;
-    transition: all 0.3s ease;
-    color: rgba(255,255,255,0.9) !important;
-}
-
-.nav-link:hover {
-    color: white !important;
-    transform: translateY(-1px);
-}
-
-.navbar-toggler {
-    border: none;
-    padding: 0.5rem;
-}
-
-.navbar-toggler:focus {
-    box-shadow: none;
-    outline: none;
 }
 
 .hero-section {
