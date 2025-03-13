@@ -10,38 +10,6 @@ title: Home
 <!-- Add Bootstrap JavaScript and Popper.js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">IJCAI 2025 Workshop</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#introduction">Introduction</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#dates">Important Dates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#topics">Topics</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#submission">Submission</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#committee">Committee</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <div class="hero-section text-center">
     <div class="hero-overlay"></div>
     <div class="container">
