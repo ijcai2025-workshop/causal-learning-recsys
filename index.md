@@ -78,6 +78,7 @@ title: Home
     <section id="topics" class="mb-5 scroll-reveal">
         <h2 class="section-title">Topics</h2>
         <div class="content-section">
+            <p class="intro-text text-center mb-4">A non-exhaustive list of topic categories:</p>
             <div class="topics-grid">
                 <div class="topic-card">
                     <div class="topic-header">
@@ -539,6 +540,9 @@ body {
     margin: 0;
     font-size: 1.2rem;
     color: var(--primary-color);
+    font-family: var(--font-primary);
+    font-weight: 500;
+    letter-spacing: -0.01em;
 }
 
 .topic-card ul {
@@ -552,7 +556,11 @@ body {
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--text-color);
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: -0.01em;
 }
 
 .topic-card ul li:last-child {
