@@ -31,7 +31,10 @@ title: Home
         <h2 class="section-title">Introduction</h2>
         <div class="content-section">
             <p class="intro-text">
-                The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems brings together researchers and practitioners to explore the intersection of causal inference and recommendation systems. This workshop aims to address the challenges and opportunities in incorporating causal reasoning into recommendation algorithms, with a focus on improving recommendation fairness, robustness, and interpretability.
+                Recommendation systems are foundational to modern digital platforms, influencing user experiences across diverse domains such as e-commerce, social media, and streaming services. Despite their widespread use, traditional recommendation models predominantly rely on correlation-based learning, which can inadvertently lead to suboptimal, biased, or even unfair recommendations. In contrast, causal learning offers a paradigm shift, enabling the development of more reliable, equitable, and interpretable systems by explicitly modeling cause-effect relationships. By understanding the underlying mechanisms that drive user behavior, causal models hold the potential to unlock deeper insights and more personalized recommendations.
+            </p>
+            <p class="intro-text">
+                This workshop aims to bring together leading researchers and practitioners from the fields of machine learning, causal inference, and recommender systems to explore the promising intersection of causal learning and recommendation technologies. We invite contributions that showcase innovative approaches, cutting-edge research, and practical solutions, demonstrating how causal reasoning can address critical challenges such as bias, fairness, and interpretability in recommendation systems.
             </p>
         </div>
     </section>
