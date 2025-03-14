@@ -21,7 +21,7 @@ title: Home
                 Montreal, Canada
             </p>
             <p class="lead date mb-4">August 16–22, 2025</p>
-            <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-hero btn-lg">Submit Your Paper</a>
+            <a href="https://openreview.net/group?id=ijcai.org/IJCAI/2025/Workshop/Causal_Learning_RecSys" class="btn btn-hero btn-lg">Submit Your Paper</a>
         </div>
     </div>
 </div>
@@ -191,7 +191,7 @@ title: Home
                     <li><i class="fas fa-chalkboard-teacher me-2"></i>Accepted papers will be presented at the workshop</li>
                 </ul>
                 <div class="text-center mt-4">
-                    <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-primary">Submit Your Paper</a>
+                    <a href="https://openreview.net/group?id=ijcai.org/IJCAI/2025/Workshop/Causal_Learning_RecSys" class="btn btn-primary">Submit Your Paper</a>
                 </div>
             </div>
         </div>
