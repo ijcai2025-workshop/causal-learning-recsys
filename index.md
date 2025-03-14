@@ -290,6 +290,11 @@ title: Home
                             <a href="mailto:zx158@cs.rutgers.edu">zx158@cs.rutgers.edu</a>
                         </div>
                         <div class="member-card">
+                            <h4>Wei Shi</h4>
+                            <p>Meta</p>
+                            <a href="mailto:weishi0079@meta.com">weishi0079@meta.com</a>
+                        </div>
+                        <div class="member-card">
                             <h4>Shuang Yang</h4>
                             <p>Meta</p>
                             <a href="mailto:shuangyang@meta.com">shuangyang@meta.com</a>
@@ -303,11 +308,6 @@ title: Home
                             <h4>Yiping Han</h4>
                             <p>Meta</p>
                             <a href="mailto:yipinghan@meta.com">yipinghan@meta.com</a>
-                        </div>
-                        <div class="member-card">
-                            <h4>Wei Shi</h4>
-                            <p>Meta</p>
-                            <a href="mailto:weishi0079@meta.com">weishi0079@meta.com</a>
                         </div>
                     </div>
                 </div>
