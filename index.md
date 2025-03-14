@@ -21,7 +21,7 @@ title: Home
                 Montreal, Canada
             </p>
             <p class="lead date mb-4">August 16–22, 2025</p>
-            <a href="#submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
+            <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-hero btn-lg">Submit Your Paper</a>
         </div>
     </div>
 </div>
@@ -30,7 +30,7 @@ title: Home
     <section id="introduction" class="mb-5 scroll-reveal">
         <h2 class="section-title">Introduction</h2>
         <div class="content-section">
-            <p>
+            <p class="intro-text">
                 The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems brings together researchers and practitioners to explore the intersection of causal inference and recommendation systems. This workshop aims to address the challenges and opportunities in incorporating causal reasoning into recommendation algorithms, with a focus on improving recommendation fairness, robustness, and interpretability.
             </p>
         </div>
@@ -187,7 +187,7 @@ title: Home
                     <li><i class="fas fa-chalkboard-teacher me-2"></i>Accepted papers will be presented at the workshop</li>
                 </ul>
                 <div class="text-center mt-4">
-                    <a href="https://easychair.org/conferences/?conf=ijcai2025causalrecsys" class="btn btn-primary">Submit Your Paper</a>
+                    <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-primary">Submit Your Paper</a>
                 </div>
             </div>
         </div>
@@ -784,6 +784,22 @@ body {
     
     .members-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+.intro-text {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+    .intro-text {
+        font-size: 1rem;
+        line-height: 1.7;
     }
 }
 </style>
