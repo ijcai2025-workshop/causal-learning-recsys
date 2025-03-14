@@ -203,15 +203,15 @@ title: Home
             <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
-                    <div class="time">09:00 – 09:15</div>
+                    <div class="time">9:00 – 9:15</div>
                     <div class="event">
-                        <h4>Opening Remarks</h4>
+                        <h4>Welcome and Opening Remarks</h4>
                         <p>Welcome and introduction by workshop organizers</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">09:15 – 10:00</div>
+                    <div class="time">9:15 – 10:00</div>
                     <div class="event">
                         <h4>Invited Keynote 1</h4>
                         <p>To be announced</p>
@@ -234,7 +234,22 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:00 – 12:00</div>
+                    <div class="time">11:00 – 11:45</div>
+                    <div class="event">
+                        <h4>Invited Keynote 2</h4>
+                        <p>To be announced</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">11:45 – 13:00</div>
+                    <div class="event">
+                        <h4>Lunch Break</h4>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">13:00 – 14:00</div>
                     <div class="event">
                         <h4>Contributed Paper Session 2</h4>
                         <p>Paper presentations</p>
@@ -242,14 +257,7 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">12:00 – 13:00</div>
-                    <div class="event">
-                        <h4>Lunch Break</h4>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">13:15 – 14:15</div>
+                    <div class="time">14:00 – 14:45</div>
                     <div class="event">
                         <h4>Poster Session and Networking Break</h4>
                         <p>Interactive discussions with poster presenters</p>
@@ -257,7 +265,7 @@ title: Home
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">14:15 – 14:30</div>
+                    <div class="time">14:45 – 15:00</div>
                     <div class="event">
                         <h4>Closing Remarks</h4>
                         <p>Concluding remarks and best paper award announcement</p>

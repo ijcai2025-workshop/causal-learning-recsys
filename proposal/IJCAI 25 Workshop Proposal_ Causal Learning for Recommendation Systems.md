@@ -66,10 +66,11 @@ We welcome submissions including theoretical advancements, experimental studies,
 * **9:15 AM \- 10:00 AM:** Invited Keynote 1  
 * **10:00 AM \- 10:45 AM:** Contributed Paper Session 1  
 * **10:45 AM \- 11:00 AM:** Coffee Break  
-* **11:00 AM \- 12:00 PM:** Contributed Paper Session 2  
-* **12:00 PM \- 1:00 PM:** Lunch Break  
-* **1:15 PM \- 2:15 PM:** Poster Session and Networking Break  
-* **2:15 PM \- 2:30 PM:** Closing Remarks
+* **11:00 AM \- 11:45 PM:** Invited Keynote 2
+* **11:45 PM \- 1:00 PM:** Lunch Break  
+* **1:00 PM \- 2:00 PM:** Contributed Paper Session 2  
+* **2:00 PM \- 2:45 PM:** Poster Session and Networking Break
+* **2:45 PM \- 3:00 PM:** Closing Remarks
 
 ---
 
