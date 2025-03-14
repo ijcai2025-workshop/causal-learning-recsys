@@ -23,6 +23,12 @@ Below is a non-exhaustive list of topic categories and subcategories we aim to e
 * Integrating causal models to improve recommendation quality  
 * Modeling cause-effect relationships in user behavior and preferences  
 * Causal discovery techniques for recommendation system design  
+
+**LLM applications**
+* Causal learning helps LLMs generate disentangled representations
+* LLMs can discover causal relationships from textual data
+* Dynamic causal inference in sequential tasks
+
   **Bias and Fairness in Recommendations**  
 * Identifying and mitigating biases in recommender algorithms using causal frameworks  
 * Fairness-aware recommendation models based on causal inference  
@@ -60,13 +66,10 @@ We welcome submissions including theoretical advancements, experimental studies,
 * **9:15 AM \- 10:00 AM:** Invited Keynote 1  
 * **10:00 AM \- 10:45 AM:** Contributed Paper Session 1  
 * **10:45 AM \- 11:00 AM:** Coffee Break  
-* **11:00 AM \- 11:00 PM:** Contributed Paper Session 2  
+* **11:00 AM \- 12:00 PM:** Contributed Paper Session 2  
 * **12:00 PM \- 1:00 PM:** Lunch Break  
-* **1:00 PM \- 1:45 PM:** Invited Keynote 2  
-* **1:45 PM \- 2:30 PM:** Poster Session and Networking Break  
-* **2:30 PM \- 3:15 PM:** Breakout Group Discussion  
-* **3:15 PM \- 4:00 PM:** Contributed Paper Session 3  
-* **4:00 PM \- 4:30 PM:** Closing Remarks
+* **1:15 PM \- 2:15 PM:** Poster Session and Networking Break  
+* **2:15 PM \- 2:30 PM:** Closing Remarks
 
 ---
 
@@ -87,7 +90,6 @@ Jingquan Yan, Rutgers University
 Yuxiang Wang, UCSB  
 Peng Cui, Tsinghua University  
 Chen Fu, Meta  
-Wei Shi, Meta
 
 ---
 
@@ -98,6 +100,8 @@ Qi Xu, Meta, xuqi@meta.com
 Zihao Xu, Rutgers University, zx158@cs.rutgers.edu  
 Shuang Yang, Meta, shuangyang@meta.com  
 Bo Long, Meta, bolong@meta.com
+Yiping Han, Meta, yipinghan@meta.com 
+Wei Shi, Meta, weishi0079@meta.com 
 
 ### **Brief CVs of Organizing Committee Members**
 

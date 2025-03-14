@@ -29,7 +29,22 @@
 <!-- End Jekyll SEO tag -->
 
     <style>
+        body {
+            padding-top: 56px; /* Add padding for fixed navbar */
+        }
+        
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1030;
+        }
+        
         .navbar {
+            background: linear-gradient(to right, #2c3e50, #3498db) !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem 0;
             transition: background-color 0.3s ease;
         }
         
@@ -37,6 +52,7 @@
             position: relative;
             padding: 0.5rem 1rem !important;
             transition: color 0.3s ease !important;
+            color: rgba(255,255,255,0.9) !important;
         }
         
         .nav-link::after {
@@ -56,14 +72,34 @@
             width: 80%;
         }
         
+        .nav-link:hover {
+            color: white !important;
+            transform: translateY(-1px);
+        }
+        
         .nav-link.active {
             color: white !important;
             font-weight: 500;
         }
+
+        .navbar-brand {
+            font-weight: 600;
+            color: white !important;
+        }
+
+        .navbar-toggler {
+            border: none;
+            padding: 0.5rem;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+            outline: none;
+        }
         
         @media (max-width: 991px) {
             .navbar-collapse {
-                background: var(--primary-color);
+                background: #2c3e50;
                 padding: 1rem;
                 border-radius: 0.5rem;
                 margin-top: 0.5rem;
@@ -106,7 +142,16 @@
     </header>
 
     <main class="site-content">
-        <div class="hero-section text-center">
+        <!-- Add Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Add Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+
+<!-- Add Bootstrap JavaScript and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<div class="hero-section text-center">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content">
@@ -116,8 +161,8 @@
                 <i class="fas fa-map-marker-alt"></i>
                 Montreal, Canada
             </p>
-            <p class="lead date mb-4">August 16th – 22nd, 2025</p>
-            <a href="#submission" class="btn btn-hero btn-lg">Submit Your Paper</a>
+            <p class="lead date mb-4">August 16–22, 2025</p>
+            <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-hero btn-lg">Submit Your Paper</a>
         </div>
     </div>
 </div>
@@ -126,8 +171,11 @@
     <section id="introduction" class="mb-5 scroll-reveal">
         <h2 class="section-title">Introduction</h2>
         <div class="content-section">
-            <p>
-                The IJCAI 2025 Workshop on Causal Learning for Recommendation Systems brings together researchers and practitioners to explore the intersection of causal inference and recommendation systems. This workshop aims to address the challenges and opportunities in incorporating causal reasoning into recommendation algorithms, with a focus on improving recommendation fairness, robustness, and interpretability.
+            <p class="intro-text">
+                Recommendation systems are foundational to modern digital platforms, influencing user experiences across diverse domains such as e-commerce, social media, and streaming services. Despite their widespread use, traditional recommendation models predominantly rely on correlation-based learning, which can inadvertently lead to suboptimal, biased, or even unfair recommendations. In contrast, causal learning offers a paradigm shift, enabling the development of more reliable, equitable, and interpretable systems by explicitly modeling cause-effect relationships. By understanding the underlying mechanisms that drive user behavior, causal models hold the potential to unlock deeper insights and more personalized recommendations.
+            </p>
+            <p class="intro-text">
+                This workshop aims to bring together leading researchers and practitioners from the fields of machine learning, causal inference, and recommender systems to explore the promising intersection of causal learning and recommendation technologies. We invite contributions that showcase innovative approaches, cutting-edge research, and practical solutions, demonstrating how causal reasoning can address critical challenges such as bias, fairness, and interpretability in recommendation systems.
             </p>
         </div>
     </section>
@@ -161,7 +209,7 @@
                     <i class="fas fa-calendar-check"></i>
                     <div>
                         <h4>Workshop Date</h4>
-                        <p>August 16th – 22nd, 2025</p>
+                        <p>August 16–22, 2025</p>
                     </div>
                 </div>
             </div>
@@ -171,6 +219,7 @@
     <section id="topics" class="mb-5 scroll-reveal">
         <h2 class="section-title">Topics</h2>
         <div class="content-section">
+            <p class="intro-text text-center mb-4">A non-exhaustive list of topic categories:</p>
             <div class="topics-grid">
                 <div class="topic-card">
                     <div class="topic-header">
@@ -181,6 +230,18 @@
                         <li>Integrating causal models to improve recommendation quality</li>
                         <li>Modeling cause-effect relationships in user behavior</li>
                         <li>Causal discovery techniques for system design</li>
+                    </ul>
+                </div>
+
+                <div class="topic-card">
+                    <div class="topic-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>LLM Applications</h3>
+                    </div>
+                    <ul>
+                        <li>Causal learning helps LLMs generate disentangled representations</li>
+                        <li>LLMs can discover causal relationships from textual data</li>
+                        <li>Dynamic causal inference in sequential tasks</li>
                     </ul>
                 </div>
 
@@ -222,7 +283,7 @@
 
                 <div class="topic-card">
                     <div class="topic-header">
-                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-brain"></i>
                         <h3>Causal Reinforcement Learning</h3>
                     </div>
                     <ul>
@@ -271,7 +332,7 @@
                     <li><i class="fas fa-chalkboard-teacher me-2"></i>Accepted papers will be presented at the workshop</li>
                 </ul>
                 <div class="text-center mt-4">
-                    <a href="https://easychair.org/conferences/?conf=ijcai2025causalrecsys" class="btn btn-primary">Submit Your Paper</a>
+                    <a href="https://easychair.org/my/conference?conf=clrs2025" class="btn btn-primary">Submit Your Paper</a>
                 </div>
             </div>
         </div>
@@ -280,81 +341,67 @@
     <section id="schedule" class="mb-5 scroll-reveal">
         <h2 class="section-title">Schedule</h2>
         <div class="content-section">
+            <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
-                    <div class="time">09:00 - 09:10</div>
+                    <div class="time">09:00 – 09:15</div>
                     <div class="event">
                         <h4>Opening Remarks</h4>
-                        <p>by Workshop Organizers</p>
+                        <p>Welcome and introduction by workshop organizers</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">09:10 - 10:10</div>
+                    <div class="time">09:15 – 10:00</div>
                     <div class="event">
-                        <h4>Keynote Presentation</h4>
+                        <h4>Invited Keynote 1</h4>
                         <p>To be announced</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:10 - 10:30</div>
+                    <div class="time">10:00 – 10:45</div>
+                    <div class="event">
+                        <h4>Contributed Paper Session 1</h4>
+                        <p>Paper presentations</p>
+                    </div>
+                </div>
+
+                <div class="schedule-item">
+                    <div class="time">10:45 – 11:00</div>
                     <div class="event">
                         <h4>Coffee Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:30 - 11:30</div>
+                    <div class="time">11:00 – 12:00</div>
                     <div class="event">
-                        <h4>Paper Session 1: Causal Discovery and Learning</h4>
-                        <p>Presentations of accepted papers</p>
+                        <h4>Contributed Paper Session 2</h4>
+                        <p>Paper presentations</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:30 - 12:30</div>
-                    <div class="event">
-                        <h4>Keynote Presentation</h4>
-                        <p>To be announced</p>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">12:30 - 14:00</div>
+                    <div class="time">12:00 – 13:00</div>
                     <div class="event">
                         <h4>Lunch Break</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">14:00 - 15:00</div>
+                    <div class="time">13:15 – 14:15</div>
                     <div class="event">
-                        <h4>Paper Session 2: Applications and Case Studies</h4>
-                        <p>Presentations of accepted papers</p>
+                        <h4>Poster Session and Networking Break</h4>
+                        <p>Interactive discussions with poster presenters</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">15:00 - 15:30</div>
+                    <div class="time">14:15 – 14:30</div>
                     <div class="event">
-                        <h4>Coffee Break</h4>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">15:30 - 16:30</div>
-                    <div class="event">
-                        <h4>Panel Discussion</h4>
-                        <p>Future Directions in Causal Recommendation Systems</p>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">16:30 - 17:00</div>
-                    <div class="event">
-                        <h4>Closing Remarks and Best Paper Award</h4>
-                        <p>by Workshop Organizers</p>
+                        <h4>Closing Remarks</h4>
+                        <p>Concluding remarks and best paper award announcement</p>
                     </div>
                 </div>
             </div>
@@ -393,6 +440,16 @@
                             <p>Meta</p>
                             <a href="mailto:bolong@meta.com">bolong@meta.com</a>
                         </div>
+                        <div class="member-card">
+                            <h4>Yiping Han</h4>
+                            <p>Meta</p>
+                            <a href="mailto:yipinghan@meta.com">yipinghan@meta.com</a>
+                        </div>
+                        <div class="member-card">
+                            <h4>Wei Shi</h4>
+                            <p>Meta</p>
+                            <a href="mailto:weishi0079@meta.com">weishi0079@meta.com</a>
+                        </div>
                     </div>
                 </div>
 
@@ -412,7 +469,7 @@
 
 <style>
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
     --primary-color: #2c3e50;
@@ -421,6 +478,7 @@
     --light-gray: #f8f9fa;
     --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-roboto: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -429,18 +487,13 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-primary);
-    font-weight: 600;
-}
-
 .hero-section {
     position: relative;
     min-height: 80vh;
     display: flex;
     align-items: center;
     color: white;
-    background: url('/assets/images/montreal-hero.jpg') no-repeat center center;
+    background: url('https://images.unsplash.com/photo-1519178614-68673b201f36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2378&q=80') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 6rem 0;
@@ -629,6 +682,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-size: 1.2rem;
     color: var(--primary-color);
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    letter-spacing: -0.01em;
 }
 
 .topic-card ul {
@@ -642,7 +698,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--text-color);
-    font-size: 0.95rem;
+    font-size: 1.1rem;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: -0.01em;
 }
 
 .topic-card ul li:last-child {
@@ -879,6 +939,22 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: 1fr;
     }
 }
+
+.intro-text {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+    .intro-text {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
 </style>
 
 <script>
@@ -901,40 +977,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Contact Us</h5>
-                    <p><i class="fas fa-envelope me-2"></i> workshop@example.com</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/submission">Submission</a></li>
-                        <li><a href="/schedule">Schedule</a></li>
-                        <li><a href="/speakers">Speakers</a></li>
-                        <li><a href="https://ijcai-25.org" target="_blank">IJCAI 2025 Main Conference</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Follow Us</h5>
-                    <div class="social-links">
-                        <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="me-2"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr class="mt-4">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">&copy; 2025 IJCAI 2025 Workshop. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

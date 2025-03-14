@@ -328,7 +328,7 @@ title: Home
 
 <style>
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
     --primary-color: #2c3e50;
@@ -337,6 +337,7 @@ title: Home
     --light-gray: #f8f9fa;
     --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-secondary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-roboto: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -540,7 +541,7 @@ body {
     margin: 0;
     font-size: 1.2rem;
     color: var(--primary-color);
-    font-family: var(--font-primary);
+    font-family: var(--font-roboto);
     font-weight: 500;
     letter-spacing: -0.01em;
 }
@@ -557,7 +558,7 @@ body {
     margin-bottom: 0.5rem;
     color: var(--text-color);
     font-size: 1.1rem;
-    font-family: var(--font-primary);
+    font-family: var(--font-roboto);
     font-weight: 400;
     line-height: 1.8;
     letter-spacing: -0.01em;
@@ -799,7 +800,7 @@ body {
 }
 
 .intro-text {
-    font-family: var(--font-primary);
+    font-family: var(--font-roboto);
     font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.8;
@@ -812,6 +813,40 @@ body {
         font-size: 1rem;
         line-height: 1.7;
     }
+}
+
+.submission-process h3 {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
+}
+
+.submission-steps {
+    list-style: none;
+    padding-left: 0;
+}
+
+.submission-steps li {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.submission-steps li i {
+    color: var(--secondary-color);
+}
+
+.submission-process .btn {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
 }
 </style>
 
