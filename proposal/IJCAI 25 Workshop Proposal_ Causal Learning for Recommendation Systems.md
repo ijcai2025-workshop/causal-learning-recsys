@@ -12,7 +12,7 @@ This workshop will explore the intersection of causal learning and recommender s
 
 Recommendation systems are foundational to modern digital platforms, influencing user experiences across diverse domains such as e-commerce, social media, and streaming services. Despite their widespread use, traditional recommendation models predominantly rely on correlation-based learning, which can inadvertently lead to suboptimal, biased, or even unfair recommendations. In contrast, causal learning offers a paradigm shift, enabling the development of more reliable, equitable, and interpretable systems by explicitly modeling cause-effect relationships. By understanding the underlying mechanisms that drive user behavior, causal models hold the potential to unlock deeper insights and more personalized recommendations.
 
-This workshop aims to bring together leading researchers and practitioners from the fields of machine learning, causal inference, and recommender systems to explore the promising intersection of causal learning and recommendation technologies. We invite contributions that showcase innovative approaches, cutting-edge research, and practical solutions, demonstrating how causal reasoning can address critical challenges such as bias, fairness, and interpretability in recommendation systems
+This workshop aims to bring together leading researchers and practitioners to explore the promising intersection of causal learning and recommendation technologies. Below is a non-exhaustive list of topic categories and subcategories we aim to explore
 
 #### Relevant Topics
 
@@ -79,6 +79,10 @@ We welcome submissions including theoretical advancements, experimental studies,
 We estimate an audience size of 40-60 participants, including researchers, industry professionals, and graduate students interested in causal learning and recommendation systems. To attract participants, we will engage with key academic and industry communities, promoting the workshop through email lists and social media platforms to generate awareness and encourage early registration with discounts for students and underrepresented groups.
 
 ---
+
+### **Paper format**
+ Please use the official IJCAI format (https://www.ijcai.org/authors_kit) to submit anonymous manuscripts (double-blind paper review), we accept papers of pages >=4 (reference and appendix excluded).
+
 
 ### **Tentative List of Program Committee (PC) Members:**
 

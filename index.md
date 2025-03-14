@@ -76,9 +76,9 @@ title: Home
     </section>
 
     <section id="topics" class="mb-5 scroll-reveal">
-        <h2 class="section-title">Topics</h2>
+        <h2 class="section-title">Call For Papers</h2>
         <div class="content-section">
-            <p class="intro-text text-center mb-4">A non-exhaustive list of topic categories:</p>
+            <p class="intro-text mb-4">This workshop aims to bring together leading researchers and practitioners to explore the promising intersection of causal learning and recommendation technologies. Below is a non-exhaustive list of topic categories and subcategories we aim to explore:</p>
             <div class="topics-grid">
                 <div class="topic-card">
                     <div class="topic-header">
@@ -183,12 +183,11 @@ title: Home
         <h2 class="section-title">Submission</h2>
         <div class="content-section">
             <div class="submission-process">
-                <h3>Submission Process</h3>
+                <h3>Paper Format</h3>
                 <ul class="submission-steps">
-                    <li><i class="fas fa-upload me-2"></i>Submit through the workshop's submission system</li>
-                    <li><i class="fas fa-users me-2"></i>Papers will be reviewed by at least 3 reviewers</li>
-                    <li><i class="fas fa-comments me-2"></i>Authors will receive detailed feedback</li>
-                    <li><i class="fas fa-chalkboard-teacher me-2"></i>Accepted papers will be presented at the workshop</li>
+                    <li><i class="fas fa-file-alt me-2"></i>Please use the official IJCAI <a href="https://www.ijcai.org/authors_kit" target="_blank">format</a></li>
+                    <li><i class="fas fa-user-secret me-2"></i>Submit anonymous manuscripts (double-blind paper review)</li>
+                    <li><i class="fas fa-file-contract me-2"></i>We accept papers of pages ≥4 (reference and appendix excluded)</li>
                 </ul>
                 <div class="text-center mt-4">
                     <a href="https://openreview.net/group?id=ijcai.org/IJCAI/2025/Workshop/Causal_Learning_RecSys" class="btn btn-primary">Submit Your Paper</a>
