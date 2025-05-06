@@ -318,16 +318,6 @@ title: Home
                         </div>
                     </div>
                 </div>
-
-                <div class="committee-section mt-5">
-                    <h3><i class="fas fa-user-graduate me-2"></i>Program Committee</h3>
-                    <div class="members-grid">
-                        <div class="member-card">
-                            <h4 class="text-center">To Be Announced</h4>
-                            <p class="text-center text-muted">The Program Committee is currently being formed. Please check back later for updates.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
