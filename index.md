@@ -47,7 +47,7 @@ title: Home
                     <i class="fas fa-calendar-alt"></i>
                     <div>
                         <h4>Paper Submission Deadline</h4>
-                        <p>May 9, 2025</p>
+                        <p>May 16, 2025</p>
                     </div>
                 </div>
                 <div class="timeline-date">
