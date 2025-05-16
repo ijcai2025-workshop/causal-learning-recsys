@@ -86,15 +86,21 @@ We estimate an audience size of 40-60 participants, including researchers, indus
 
 ### **Tentative List of Program Committee (PC) Members:**
 
-Shuai Zhang, Amazon AI  
-Hao Ding, Amazon AI  
-Hengguan Huang, University of Copenhagen  
-Yuhui Zhang, Stanford University  
-Hengyi Wang, Rutgers University  
-Jingquan Yan, Rutgers University  
-Yuxiang Wang, UCSB  
-Peng Cui, Tsinghua University  
-Chen Fu, Meta  
+Rong Jin, Meta, Program Chair
+Hengyi Wang, Rutgers University
+Hengguan Huang, University of Copenhagen
+Jiyan Yang, Meta
+Saurabh Gupta, Meta
+Raghuveer Chanda, Google
+Jizhe Zhang, Meta
+Zhanglong Liu, Linkedin
+Wei Guan, Meta
+Jun Shi, Airbnb
+Vishal Vaingankar, Meta
+Saurabh Kataria, Snap
+Catherine Zhu, Meta
+Tao Liu, Meta
+
 
 ---
 
