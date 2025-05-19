@@ -84,6 +84,12 @@ We estimate an audience size of 40-60 participants, including researchers, indus
  Please use the official IJCAI format (https://www.ijcai.org/authors_kit) to submit anonymous manuscripts (double-blind paper review), we accept papers of pages >=4 (reference and appendix excluded).
 
 
+
+### **Keynote Speakers:**
+
+Rong Jin, Meta
+Yongfeng Zhang, Rutgers University
+
 ### **Tentative List of Program Committee (PC) Members:**
 
 Rong Jin, Meta, Program Chair
