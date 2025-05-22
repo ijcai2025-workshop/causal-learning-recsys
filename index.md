@@ -297,37 +297,30 @@ title: Home
                         <div class="member-card">
                             <h4>Zhigang Hua</h4>
                             <p>Meta</p>
-                            <a href="mailto:zhua@meta.com">zhua@meta.com</a>
                         </div>
                         <div class="member-card">
                             <h4>Qi Xu</h4>
                             <p>Meta</p>
-                            <a href="mailto:xuqi@meta.com">xuqi@meta.com</a>
                         </div>
                         <div class="member-card">
                             <h4>Zihao Xu</h4>
                             <p>Rutgers University</p>
-                            <a href="mailto:zx158@cs.rutgers.edu">zx158@cs.rutgers.edu</a>
                         </div>
                         <div class="member-card">
                             <h4>Wei Shi</h4>
                             <p>Meta</p>
-                            <a href="mailto:weishi0079@meta.com">weishi0079@meta.com</a>
                         </div>
                         <div class="member-card">
                             <h4>Shuang Yang</h4>
                             <p>Meta</p>
-                            <a href="mailto:shuangyang@meta.com">shuangyang@meta.com</a>
                         </div>
                         <div class="member-card">
                             <h4>Bo Long</h4>
                             <p>Meta</p>
-                            <a href="mailto:bolong@meta.com">bolong@meta.com</a>
                         </div>
                         <div class="member-card">
                             <h4>Yiping Han</h4>
                             <p>Meta</p>
-                            <a href="mailto:yipinghan@meta.com">yipinghan@meta.com</a>
                         </div>
                     </div>
                 </div>
@@ -396,6 +389,15 @@ title: Home
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Contact</h2>
+        <div class="content-section">
+            <div class="contact-info">
+                <p class="contact-text">For any inquiries, please contact Zhigang Hua (zhua@meta.com) or Qi Xu (xuqi@meta.com).</p>
             </div>
         </div>
     </section>
@@ -998,6 +1000,24 @@ body {
 @media (max-width: 768px) {
     .keynote-speakers {
         grid-template-columns: 1fr;
+    }
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-text {
+    font-family: var(--font-roboto);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .contact-text {
+        font-size: 1.1rem;
     }
 }
 </style>
