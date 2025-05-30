@@ -54,7 +54,7 @@ title: Home
                     <i class="fas fa-envelope"></i>
                     <div>
                         <h4>Notification of Acceptance</h4>
-                        <p>June 15, 2025</p>
+                        <p>June 21, 2025</p>
                     </div>
                 </div>
                 <div class="timeline-date">
