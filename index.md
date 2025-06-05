@@ -359,8 +359,8 @@ title: Home
                             <p>Meta</p>
                         </div>
                         <div class="member-card">
-                            <h4>Zhanglong Liu</h4>
-                            <p>LinkedIn</p>
+                            <h4>Kevin Chang</h4>
+                            <p>Meta</p>
                         </div>
                         <div class="member-card">
                             <h4>Wei Guan</h4>
@@ -381,6 +381,10 @@ title: Home
                         <div class="member-card">
                             <h4>Catherine Zhu</h4>
                             <p>Meta</p>
+                        </div>
+                        <div class="member-card">
+                            <h4>Zhanglong Liu</h4>
+                            <p>LinkedIn</p>
                         </div>
                         <div class="member-card">
                             <h4>Tao Liu</h4>

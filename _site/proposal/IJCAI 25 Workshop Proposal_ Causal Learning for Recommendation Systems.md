@@ -99,12 +99,13 @@ Jiyan Yang, Meta
 Saurabh Gupta, Meta
 Raghuveer Chanda, Google
 Jizhe Zhang, Meta
-Zhanglong Liu, Linkedin
+Kevin Chang, Meta
 Wei Guan, Meta
 Jun Shi, Airbnb
 Vishal Vaingankar, Meta
 Saurabh Kataria, Snap
 Catherine Zhu, Meta
+Zhanglong Liu, Linkedin
 Tao Liu, Meta
 
 
