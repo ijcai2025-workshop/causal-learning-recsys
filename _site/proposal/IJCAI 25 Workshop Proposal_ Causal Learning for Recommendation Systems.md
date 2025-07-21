@@ -62,15 +62,21 @@ We welcome submissions including theoretical advancements, experimental studies,
 
 **Tentative Schedule:**
 
-* **9:00 AM \- 9:15 AM:** Welcome and Opening Remarks  
-* **9:15 AM \- 10:00 AM:** Invited Keynote 1  
-* **10:00 AM \- 10:45 AM:** Contributed Paper Session 1  
-* **10:45 AM \- 11:00 AM:** Coffee Break  
-* **11:00 AM \- 11:45 PM:** Invited Keynote 2
-* **11:45 PM \- 1:00 PM:** Lunch Break  
-* **1:00 PM \- 2:00 PM:** Contributed Paper Session 2  
-* **2:00 PM \- 2:45 PM:** Poster Session and Networking Break
-* **2:45 PM \- 3:00 PM:** Closing Remarks
+* **8:30 AM \- 8:40 AM:** Welcome and Opening Remarks  
+* **8:40 AM \- 9:10 AM:** Invited Keynote - Rong Jin
+* **9:10 AM \- 10:10 AM:** Oral Presentation Session 1  
+**  **9:10 AM \- 9:25 AM:** Deep Knowledge Tracing for Explainable Problem Recommendations on Codeforces, James Zhao, Fang Sun, Yizhou Sun
+**  **9:25 AM \- 9:40 AM:** IRanker: Towards Ranking Foundation Model, Tao Feng, Zijie Lei, Jiaxuan You 
+**  **9:40 AM \- 9:55 AM:** Causal Sensitivity Identification using Generative Learning, Soma Bandyopadhyay, Sudeshna Sarkar 
+**  **9:55 AM \- 10:10 AM:** SSM-MTO: A Causal Framework for Session-level Ads Load Optimization,Hui Chen, Patrick R. Johnstone, Taihui Li, Shu Wang, Chao Cen, Qinqin Zhu, Jizhe Zhang 
+* **10:10 AM \- 10:25 AM:** Coffee Break  
+* **10:25 AM \- 11:25 PM:** Oral Presentation Session 2 
+** **10:25 AM \- 10:40 AM:** CBPL: A Unified Calibration and Balancing Propensity Learning Framework in Causal Recommendation for Debiasing, Shufeng Zhang, Tianyu Xia 
+** **10:40 AM \- 10:55 AM:** Personalized Ad Quality Bidding with MTML Causal Modeling and Constrained Optimization, Libin Liu, Fang Liu, Chen Fu, Fei Peng, Ethan Shao, Wei Guan, Kevin K. Chang 
+** **10:55 AM \- 11:10 AM:** REAL: Response Embedding-based Alignment for LLMs, Honggen Zhang, Xufeng Zhao, Igor Molybog, June Zhang 
+** **11:10 AM \- 11:25 AM:** Tighter Bounds on Bias Estimation in Doubly Robust Estimators, Sunkai Lyu 
+* **11:25 AM \- 12:25 PM:** Poster Session and Networking Break
+* **12:25 PM \- 12:30 PM:** Closing Remarks
 
 ---
 

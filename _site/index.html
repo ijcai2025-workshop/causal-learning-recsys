@@ -335,72 +335,67 @@
             <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
-                    <div class="time">9:00 – 9:15</div>
+                    <div class="time">8:30 – 8:45</div>
                     <div class="event">
                         <h4>Welcome and Opening Remarks</h4>
-                        <p>Welcome and introduction by workshop organizers</p>
+                        <p>Introduction to the workshop and overview of the day</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">9:15 – 10:00</div>
+                    <div class="time">8:45 – 9:15</div>
                     <div class="event">
-                        <h4>Invited Keynote 1</h4>
-                        <p></p>
+                        <h4>Invited Keynote</h4>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:00 – 10:45</div>
+                    <div class="time">9:15 – 10:15</div>
                     <div class="event">
-                        <h4>Contributed Paper Session 1</h4>
-                        <p>Paper presentations</p>
+                        <h4>Oral Presentation Session 1</h4>
+                        <ul class="presentation-list">
+                            <li><strong>9:15-9:30:</strong> Deep Knowledge Tracing for Explainable Problem Recommendations on Codeforces<br /><em>James Zhao, Fang Sun, Yizhou Sun</em></li>
+                            <li><strong>9:30-9:45:</strong> REAL: Response Embedding-based Alignment for LLMs<br /><em>Honggen Zhang, Xufeng Zhao, Igor Molybog, June Zhang</em></li>
+                            <li><strong>9:45-10:00:</strong> Causal Sensitivity Identification using Generative Learning<br /><em>Soma Bandyopadhyay, Sudeshna Sarkar</em></li>
+                            <li><strong>10:00-10:15:</strong> SSM-MTO: A Causal Framework for Session-level Ads Load Optimization<br /><em>Hui Chen, Patrick R. Johnstone, Taihui Li, Shu Wang, Chao Cen, Qinqin Zhu, Jizhe Zhang</em></li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">10:45 – 11:00</div>
+                    <div class="time">10:15 – 10:30</div>
                     <div class="event">
                         <h4>Coffee Break</h4>
+                        <p>Networking and refreshments</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:00 – 11:45</div>
+                    <div class="time">10:30 – 11:30</div>
                     <div class="event">
-                        <h4>Invited Keynote 2</h4>
-                        <p></p>
+                        <h4>Oral Presentation Session 2</h4>
+                        <ul class="presentation-list">
+                            <li><strong>10:30-10:45:</strong> Personalized Ad Quality Bidding with MTML Causal Modeling and Constrained Optimization<br /><em>Libin Liu, Fang Liu, Chen Fu, Fei Peng, Ethan Shao, Wei Guan, Kevin K. Chang</em></li>
+                            <li><strong>10:45-11:00:</strong> CBPL: A Unified Calibration and Balancing Propensity Learning Framework in Causal Recommendation for Debiasing<br /><em>Shufeng Zhang, Tianyu Xia</em></li>
+                            <li><strong>11:00-11:15:</strong> Learning Disentangled Representations for Industrial-Scale Ads Ranking<br /><em>Xuxing Chen, Yan Xie, Jin Fang</em></li>
+                            <li><strong>11:15-11:30:</strong> Tighter Bounds on Bias Estimation in Doubly Robust Estimators<br /><em>Sunkai Lyu</em></li>
+                        </ul>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">11:45 – 13:00</div>
-                    <div class="event">
-                        <h4>Lunch Break</h4>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">13:00 – 14:00</div>
-                    <div class="event">
-                        <h4>Contributed Paper Session 2</h4>
-                        <p>Paper presentations</p>
-                    </div>
-                </div>
-
-                <div class="schedule-item">
-                    <div class="time">14:00 – 14:45</div>
+                    <div class="time">11:30 – 12:30</div>
                     <div class="event">
                         <h4>Poster Session and Networking Break</h4>
-                        <p>Interactive discussions with poster presenters</p>
+                        <p>Interactive poster presentations and discussions</p>
                     </div>
                 </div>
 
                 <div class="schedule-item">
-                    <div class="time">14:45 – 15:00</div>
+                    <div class="time">12:30 – 12:35</div>
                     <div class="event">
                         <h4>Closing Remarks</h4>
-                        <p>Concluding remarks and best paper award announcement</p>
+                        <p>Summary and wrap-up of the workshop</p>
                     </div>
                 </div>
             </div>
@@ -1145,6 +1140,33 @@ body {
     .contact-text {
         font-size: 1.1rem;
     }
+}
+
+.presentation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.presentation-list li {
+    margin-bottom: 0.8rem;
+    padding: 0.5rem;
+    background: var(--light-gray);
+    border-radius: 8px;
+    border-left: 3px solid var(--secondary-color);
+}
+
+.presentation-list li:last-child {
+    margin-bottom: 0;
+}
+
+.presentation-list strong {
+    color: var(--primary-color);
+}
+
+.presentation-list em {
+    color: var(--text-muted);
+    font-size: 0.9rem;
 }
 </style>
 
