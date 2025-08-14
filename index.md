@@ -39,6 +39,16 @@ title: Home
         </div>
     </section>
 
+    <section id="keynote" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Keynote Speaker</h2>
+        <div class="content-section">
+            <h3>Dr. Rong Jin</h3>
+            <p class="intro-text">
+                Dr. Jin is a Research Director at Meta Platforms, Inc., working on large models for ad recommendation. Prior to Meta, he served as a professor at Michigan State University (2003 – 2014), a vice president of Alibaba Group (2014 – 2022), and a vice president at Twitter (2022 – 2023). His research interest includes statistical machine learning and its application to large-scale data management. Dr. Jin received a Ph.D. in Computer Science from Carnegie Mellon University. He received Best Paper Award from the 25th Conference of Learning Theory (COLT), and NSF Career Award, 2007. He is the Associate Editor of ACM Transactions on Knowledge Discovery from Data and IEEE Transactions on Pattern Analysis and Machine Intelligence. His total citation is over 36,000, and H-index is 96, according to GoogleScholar.
+            </p>
+        </div>
+    </section>
+
     <section id="dates" class="mb-5 scroll-reveal">
         <h2 class="section-title">Important Dates</h2>
         <div class="content-section">
