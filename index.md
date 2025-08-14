@@ -198,7 +198,7 @@ title: Home
     <section id="schedule" class="mb-5 scroll-reveal">
         <h2 class="section-title">Schedule</h2>
         <div class="content-section">
-            <p class="text-center mb-4"><em>This is a tentative schedule and subject to change</em></p>
+            <p class="text-center mb-4"><strong>Location: Room 520F</strong></p>
             <div class="schedule-timeline">
                 <div class="schedule-item">
                     <div class="time">8:30 – 8:45</div>
@@ -211,7 +211,8 @@ title: Home
                 <div class="schedule-item">
                     <div class="time">8:45 – 9:15</div>
                     <div class="event">
-                        <h4>Invited Keynote</h4>
+                        <h4>Invited Keynote - Rong Jin</h4>
+                        <p>Meta</p>
                     </div>
                 </div>
 
