@@ -189,6 +189,21 @@ title: Home
         </div>
     </section>
 
+    <section id="accepted-papers" class="mb-5 scroll-reveal">
+        <h2 class="section-title">Accepted Papers</h2>
+        <div class="content-section">
+            <p class="intro-text">
+                We are pleased to announce the accepted papers for the IJCAI 2025 Workshop on Causal Learning for Recommendation Systems. All accepted papers could be found through the link below.
+            </p>
+            <div class="accepted-papers-link">
+                <a href="https://openreview.net/group?id=ijcai.org/IJCAI/2025/Workshop/Causal_Learning_RecSys#tab-accept" target="_blank" class="btn btn-primary">
+                    <i class="fas fa-external-link-alt me-2"></i>
+                    View All Accepted Papers on OpenReview
+                </a>
+            </div>
+        </div>
+    </section>
+
     <section id="submission" class="mb-5 scroll-reveal">
         <h2 class="section-title">Submission</h2>
         <div class="content-section">
@@ -254,7 +269,7 @@ title: Home
                         <ul class="presentation-list">
                             <li><strong>10:30-10:45:</strong> Personalized Ad Quality Bidding with MTML Causal Modeling and Constrained Optimization<br><em>Libin Liu, Fang Liu, Chen Fu, Fei Peng, Ethan Shao, Wei Guan, Kevin K. Chang</em></li>
                             <li><strong>10:45-11:00:</strong> CBPL: A Unified Calibration and Balancing Propensity Learning Framework in Causal Recommendation for Debiasing<br><em>Shufeng Zhang, Tianyu Xia</em></li>
-                            <li><strong>11:00-11:15:</strong> Learning Disentangled Representations for Industrial-Scale Ads Ranking<br><em>Xuxing Chen, Yan Xie, Jin Fang</em></li>
+                            <li><strong>11:00-11:15:</strong> Learning Disentangled Representations for Ads Ranking<br><em>Xuxing Chen, Yan Xie, Jin Fang</em></li>
                             <li><strong>11:15-11:30:</strong> Tighter Bounds on Bias Estimation in Doubly Robust Estimators<br><em>Sunkai Lyu</em></li>
                         </ul>
                     </div>

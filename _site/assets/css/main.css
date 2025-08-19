@@ -345,4 +345,22 @@ body::before {
 /* Keynote speaker heading spacing */
 #keynote h3 {
     margin-bottom: 3rem;
+}
+
+/* Accepted Papers section styling */
+.accepted-papers-link {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.accepted-papers-link .btn {
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.accepted-papers-link .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
 } 
